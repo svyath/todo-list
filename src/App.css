@@ -4,5 +4,5 @@
   background: -webkit-linear-gradient(to right, #155799, #159957); 
   background: linear-gradient(to right, #155799, #159957); 
   border-radius: 5px;
-  box-shadow: 2px 5px 15px grey ;
+  box-shadow: 3px 3px 10px #ffffff, -3px -3px 10px #ffffff;
 }

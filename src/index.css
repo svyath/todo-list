@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
+  background: #485563;  
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  
+  background: linear-gradient(to right, #29323c, #485563); 
 }
 
 code {
