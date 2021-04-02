@@ -1,0 +1,71 @@
+.taskContainer{
+    display: flex;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.taskInner{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.taskContainer:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+
+.taskInfo{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(14, 13, 13);
+    padding-left: 40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.setDoneBtn, .deleteBtn{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(97, 97, 97, 0.2);
+    color: #454E53;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.setDoneBtn:hover, .deleteBtn:hover{
+    background-color: rgb(97, 97, 97, 0.5);
+    cursor: pointer;
+}
+
+.taskInner p input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+input[value]{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+}

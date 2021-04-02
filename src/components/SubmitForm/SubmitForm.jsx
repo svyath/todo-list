@@ -17,7 +17,7 @@ class SubmitForm extends React.Component {
                 key: Date.now()
             };
             this.props.addTask(newItem);
-            this.state.tasksCount++;
+            this.setState.tasksCount++;
             this.inputElement.value = "";
         }
         event.preventDefault();
@@ -26,6 +26,7 @@ class SubmitForm extends React.Component {
     render(){
         return(
             <div className="form">
+                <h1>ToDo App </h1>
                 <form action="Add task" onSubmit={this.addItem}>
                     <input 
                         type="text" 
@@ -34,7 +35,7 @@ class SubmitForm extends React.Component {
                         ref={(item) => this.inputElement = item}
                         required
                     />
-                    <button type="submit" className="addTaskBtn">Add</button>
+                    <button type="submit" className="addTaskBtn"><b>Add</b></button>
                 </form>
             </div>
         )

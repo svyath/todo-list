@@ -1,0 +1,41 @@
+.form{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form h1{
+    color: #ffffff;
+}
+
+.input{
+    width: 350px;
+    padding: 11px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff83;
+    margin-left: 40px;
+    color: #ffffff;
+}
+
+.addTaskBtn{
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+    background: #007991;  
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991); 
+    background: linear-gradient(to right, #78ffd6, #007991); 
+}
+
+.addTaskBtn:hover{
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
